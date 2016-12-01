@@ -10,7 +10,7 @@ Parce que vérifier la présence d'intitulés de liens dupliqués dans la page (
 
 Le script ne tient pas compte :
 * des liens vides
-* des liens riches (contenant autre chose que du text)
+* des liens riches (contenant autre chose que du texte)
 
 Il ne tient pas non plus compte (pour l'instant) :
 * de la présence de `title` différent sur des liens ayant le même intitulé
