@@ -8,7 +8,7 @@ Pour ceux qui seraient ammenés à passer les tests d'acceptations du critère 6
 
 Parce que vérifier la présence d'intitulés de liens dupliqués dans la page (vérification du contexte) est laborieux. Ce script vous entourera tous les liens dupliqués et leurs donnera un identifiant afin de faciliter la recherche et leurs comparaisons. Des logs sont également remontés dans la console. Ils permettent de faire le focus directement sur le noeud à vérifier.
 
-**TODO > Attention : les liens peuveut être dupliqués et cachés. Le script les remontes pour le moment > à corriger**
+**TODO > Attention : les liens peuveut être dupliqués et cachés. Le script ne gère que le cas des liens non visibles par contre il faudrait tester le cas Aria-hidden > à corriger**
 
 Le script ne tient pas compte :
 * des liens vides
@@ -28,7 +28,7 @@ Github ne permet pas de générer directement le lien à copier dans vos favoris
 0. Copier/coller le code ci-dessous dans le générateur
 
 ```javascript
-var inlineScript = "https://cdn.rawgit.com/jonasdd/duplicate-links-checker/master/links-checker-0.3.js";
+var inlineScript = "https://cdn.rawgit.com/jonasdd/duplicate-links-checker/master/links-checker-0.4.js";
 
 var head = document.head
   , scriptLink = document.createElement('script')
