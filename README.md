@@ -8,6 +8,8 @@ Pour ceux qui seraient ammenés à passer les tests d'acceptations du critère 6
 
 Parce que vérifier la présence d'intitulés de liens dupliqués dans la page (vérification du contexte) est laborieux. Ce script vous entourera tous les liens dupliqués et leurs donnera un identifiant afin de faciliter la recherche et leurs comparaisons. Des logs sont également remontés dans la console. Ils permettent de faire le focus directement sur le noeud à vérifier.
 
+**TODO > Attention : les liens peuveut être dupliqués et cachés. Le script les remontes pour le moment > à corriger**
+
 Le script ne tient pas compte :
 * des liens vides
 * des liens riches (contenant autre chose que du texte)
