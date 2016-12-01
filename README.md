@@ -45,5 +45,6 @@ Naviguez vers la page à auditer. Cliquez sur votre favori. C'est tout !
 Le script devrait pouvoir exclure les liens qui ont des attributs `href` identiques ou des attributs
  `title` différent puisque dans ce cas ils ne sont pas considéré comme problématiques.
  
+**les intitulés de liens peuvent être dupliqués et cachés. Le script ne gère que le cas des liens en display:none - il faudrait tester aussi les visibility:hidden**.
 
-**TODO > Attention : les intitulés de liens peuvent être dupliqués et cachés. Le script ne gère que le cas des liens non visibles par contre il faudrait tester le cas Aria-hidden > à tester**
+Supprimer le border qui peut être problématique dans le cas ou un style inline masquerait le lien.
