@@ -8,8 +8,6 @@ Pour ceux qui seraient ammenés à passer les tests d'acceptations du critère 6
 
 Parce que vérifier la présence d'intitulés de liens dupliqués dans la page (vérification du contexte) est laborieux. Ce script vous entourera tous les liens dupliqués et leurs donnera un identifiant afin de faciliter la recherche et leurs comparaisons. Des logs sont également remontés dans la console. Ils permettent de faire le focus directement sur le noeud à vérifier.
 
-**TODO > Attention : les liens peuveut être dupliqués et cachés. Le script ne gère que le cas des liens non visibles par contre il faudrait tester le cas Aria-hidden > à corriger**
-
 Le script ne tient pas compte :
 * des liens vides
 * des liens riches (contenant autre chose que du texte)
@@ -46,3 +44,6 @@ Naviguez vers la page à auditer. Cliquez sur votre favori. C'est tout !
 
 Le script devrait pouvoir exclure les liens qui ont des attributs `href` identiques ou des attributs
  `title` différent puisque dans ce cas ils ne sont pas considéré comme problématiques.
+ 
+
+**TODO > Attention : les intitulés de liens peuvent être dupliqués et cachés. Le script ne gère que le cas des liens non visibles par contre il faudrait tester le cas Aria-hidden > à tester**
