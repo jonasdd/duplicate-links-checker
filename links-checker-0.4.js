@@ -23,7 +23,7 @@ Object.keys(links).forEach(function(key){
       for (var i = 0; i < links[key].length; i++) {
         //if (links[key][i].offsetHeight != 0){
           var span = document.createElement('span');
-          span.setAttribute("style","border:1px solid gray;color:black;font-size:0.875em;background:lightgray;position:absolute;left:-4px;bottom:100%;padding:2px");
+          span.setAttribute("style","border:1px solid gray;color:black;font-size:0.875em;line-height:1.75em;background:lightgray;position:absolute;left:-4px;bottom:100%;padding:2px");
           links[key][i].setAttribute('style','border: 4px solid hsl('+autoColor+', 100%, 50%);position:relative');
           links[key][i].appendChild(span);
           span.innerHTML= "#"+doublonCount;
