@@ -27,7 +27,7 @@ Github ne permet pas de générer directement le lien à copier dans vos favoris
 0. Copier/coller le code ci-dessous dans le générateur
 
 ```javascript
-var inlineScript = "https://cdn.rawgit.com/jonasdd/duplicate-links-checker/master/links-checker-0.4.js";
+var inlineScript = "https://cdn.jsdelivr.net/gh/jonasdd/duplicate-links-checker@master/links-checker-0.4.js";
 
 var head = document.head
   , scriptLink = document.createElement('script')
